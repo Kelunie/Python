@@ -7,7 +7,7 @@ def verHero(lstHeroe):
     i = 1
     for her in lstHeroe:
         print('El hero {0} se llama {1} el nombre, su abtributo es {2} de sus habilidades son: {3}, {4}, {5}, {6} '.format
-              (i, her.getNombre(), her.getAtrubuto(), her.getSpell1(), her.getSpell2(), her.getSpell3(), her.getSpell4()))
+              (i, her.getNombre(), her.getAtributo(), her.getSpell1(), her.getSpell2(), her.getSpell3(), her.getSpell4()))
         i += 1
     print('')
 
