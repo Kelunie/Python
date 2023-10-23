@@ -1,7 +1,8 @@
 import csv
 from tabulate import tabulate
 
-archivo_csv = 'Copa_Mundial_2023.csv'  # Reemplaza con la ruta de tu archivo CSV
+# Reemplaza con la ruta de tu archivo CSV
+archivo_csv = '../Copa_Mundial_2023.csv'
 
 # Crea una lista vacía para almacenar los datos del archivo CSV
 datos_csv = []
