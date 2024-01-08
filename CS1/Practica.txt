@@ -1,0 +1,15 @@
+Practica:
+
+realice un programa en python de la siguiente manera:
+
+En el comienzo del programa debera solicitarle al usuario el nombre, apellido,
+fecha de nacimiento.
+despues debera hacer un juego ruleta rusa, entre el numero de 1 a 10
+si el usuario adivina el numero, obtendra 5 puntos, un maximo de 3 oportunidades
+para cada vez que juegue, por cada intento fallido el usuario perdera un puntos
+despues de que el usuario ya no quiera jugar más el mensaje de salida deberia 
+ser asi:
+
+	nombre: Caleb Rodriguez.
+	edad:   26 años.
+	Puntos: 50 pts.

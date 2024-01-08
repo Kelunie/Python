@@ -1,13 +1,10 @@
-n1 = 3
+contador_externo = 0
+mensaje = 0
+while contador_externo < 3000:
+    contador_externo += 1
+    contador_interno = 0
+    while contador_interno < 5000:
+        contador_interno += 1
+        mensaje += 1
 
-n2 = 5
-
-n1 = n1+n2
-
-n2 = n1+n1
-
-n2 = n1+n2
-
-n1 = n1+n2
-
-print(n1)
+print(mensaje)

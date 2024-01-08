@@ -46,7 +46,7 @@ atributos = ["Inteligencia", "Agilidad", "Fuerza"]
 # comandos simples de como funciona todo lenguaje
 
 if heroe1 != "rikie":
-    print("Ese heroe no es Pudge.")
+    print("Ese heroe es Pudge.")
 
 if heroe1 == "Pudge":
     print("Pudge hizo {0} de daño con la Q".format(damage))
@@ -59,8 +59,8 @@ else:
 # tenemos el for, que se usa para recorrer algo o contar
 print()
 
-for x in heroe1:
-    print(x)
+for posicion in enumerate(soportes, 3):
+    print(posicion)
 
 print()
 
@@ -69,9 +69,9 @@ for x in soportes:
 
 # o podemos deletrear cada letra y recorrerla del vector
 print()
-for soporte in soportes:
+for soporte in enumerate(soportes, 3):
     print(soporte)
-    for letra in soporte:
+    for letra in soporte[1]:
         print(letra)
     print()
 
@@ -80,8 +80,8 @@ for soporte in soportes:
 # creamos un diccionario (los diccionaros relacion una cosa con otra que se le atribuye)
 asignaciones = {}
 
-for i in range(len(soportes)):
-    asignaciones[soportes[i]] = atributos[i]
+for x in range(len(soportes)):
+    asignaciones[soportes[x]] = atributos[x]
 
 # Imprime las asignaciones
 for soporte, atributo in asignaciones.items():
